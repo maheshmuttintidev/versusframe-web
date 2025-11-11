@@ -1,5 +1,24 @@
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Delete Account - VersusFrame',
+  description: 'Learn how to delete your VersusFrame account. Follow our step-by-step guide to permanently remove your data.',
+  keywords: ['delete account', 'account removal', 'versusframe', 'privacy'],
+  openGraph: {
+    title: 'Delete Account - VersusFrame',
+    description: 'Learn how to delete your VersusFrame account. Follow our step-by-step guide to permanently remove your data.',
+    url: 'https://versusframe.com/delete-account',
+    siteName: 'VersusFrame',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Delete Account - VersusFrame',
+    description: 'Learn how to delete your VersusFrame account. Follow our step-by-step guide to permanently remove your data.',
+  },
+};
 
 export default function DeleteAccount() {
   return (

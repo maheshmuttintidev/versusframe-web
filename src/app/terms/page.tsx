@@ -1,5 +1,24 @@
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Terms and Conditions - VersusFrame',
+  description: 'Read the terms and conditions for using VersusFrame. Understand your rights and responsibilities when using our app.',
+  keywords: ['terms and conditions', 'legal', 'versusframe', 'terms'],
+  openGraph: {
+    title: 'Terms and Conditions - VersusFrame',
+    description: 'Read the terms and conditions for using VersusFrame. Understand your rights and responsibilities when using our app.',
+    url: 'https://versusframe.com/terms',
+    siteName: 'VersusFrame',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Terms and Conditions - VersusFrame',
+    description: 'Read the terms and conditions for using VersusFrame. Understand your rights and responsibilities when using our app.',
+  },
+};
 
 export default function TermsConditions() {
   return (

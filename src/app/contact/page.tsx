@@ -1,5 +1,24 @@
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Contact Us - VersusFrame',
+  description: 'Get in touch with the VersusFrame team. Contact us for support, business inquiries, bug reports, or feature requests.',
+  keywords: ['contact', 'support', 'versusframe', 'help'],
+  openGraph: {
+    title: 'Contact Us - VersusFrame',
+    description: 'Get in touch with the VersusFrame team. Contact us for support, business inquiries, bug reports, or feature requests.',
+    url: 'https://versusframe.com/contact',
+    siteName: 'VersusFrame',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Contact Us - VersusFrame',
+    description: 'Get in touch with the VersusFrame team. Contact us for support, business inquiries, bug reports, or feature requests.',
+  },
+};
 
 export default function Contact() {
   return (

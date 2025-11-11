@@ -1,5 +1,24 @@
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy - VersusFrame',
+  description: 'Learn how VersusFrame collects, uses, and protects your personal information. Our privacy policy explains data handling practices.',
+  keywords: ['privacy policy', 'data protection', 'versusframe', 'privacy'],
+  openGraph: {
+    title: 'Privacy Policy - VersusFrame',
+    description: 'Learn how VersusFrame collects, uses, and protects your personal information. Our privacy policy explains data handling practices.',
+    url: 'https://versusframe.com/privacy-policy',
+    siteName: 'VersusFrame',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Privacy Policy - VersusFrame',
+    description: 'Learn how VersusFrame collects, uses, and protects your personal information. Our privacy policy explains data handling practices.',
+  },
+};
 
 export default function PrivacyPolicy() {
   return (
